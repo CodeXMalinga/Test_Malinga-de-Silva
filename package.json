@@ -1,0 +1,17 @@
+{
+  "name": "test-malinga-desilva",
+  "version": "1.0.0",
+  "description": "Test landing page design for the eBeyond-Associated Web developer position",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver"
+  },
+  "author": "Malinga de Silva",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "npm-run-all": "^4.1.5"
+  }
+}
