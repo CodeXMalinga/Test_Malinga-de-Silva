@@ -12038,6 +12038,11 @@ textarea.form-control-lg {
   display: flex;
   flex-direction: row;
 }
+.nav-items-container .active {
+  color: #000;
+  cursor: pointer;
+  background: #759299;
+}
 
 .dropdown {
   display: flex;
@@ -12201,5 +12206,10 @@ textarea.form-control-lg {
   height: 3rem;
   background: #000;
   color: #fff;
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
+}
+.footer-section p {
+  margin-top: 10px;
+  margin-left: 10rem;
 }/*# sourceMappingURL=main.css.map */
